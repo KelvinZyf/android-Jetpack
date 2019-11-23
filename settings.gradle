@@ -1,2 +1,2 @@
-include ':app', ':processor', ':annotation', ':inject_api'
+include ':app'
 rootProject.name='CzClient'
