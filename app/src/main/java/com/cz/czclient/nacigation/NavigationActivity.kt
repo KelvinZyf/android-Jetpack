@@ -1,4 +1,4 @@
-package com.cz.czclient.fragment
+package com.cz.czclient.nacigation
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

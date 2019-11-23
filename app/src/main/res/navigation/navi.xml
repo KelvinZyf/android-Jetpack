@@ -5,7 +5,7 @@
     app:startDestination="@id/welComeFragment">
     <fragment
         android:id="@+id/welComeFragment"
-        android:name="com.cz.czclient.fragment.WelComeFragment"
+        android:name="com.cz.czclient.nacigation.WelComeFragment"
         android:label="WelComeFragment" >
         <action
             android:id="@+id/action_welComeFragment_to_loginFragment2"
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.cz.czclient.fragment.LoginFragment"
+        android:name="com.cz.czclient.nacigation.LoginFragment"
         android:label="LoginFragment" >
         <action
             android:id="@+id/action_loginFragment_to_mainFragment"
@@ -24,6 +24,6 @@
     </fragment>
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.cz.czclient.fragment.MainFragment"
+        android:name="com.cz.czclient.nacigation.MainFragment"
         android:label="MainFragment" />
 </navigation>
