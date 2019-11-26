@@ -46,4 +46,9 @@ dependencies {
 
     implementation "androidx.navigation:navigation-fragment-ktx:$rootProject.navigationVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$rootProject.navigationVersion"
+
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+    // 高斯模糊和圆角等
+    implementation 'jp.wasabeef:glide-transformations:4.1.0'
 }
