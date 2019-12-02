@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         println("LRU已满")
 
+
         lruCache.put(6,6)
         val set1 = lruCache.snapshot().entries
         for (i in set1) {

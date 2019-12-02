@@ -5,4 +5,6 @@
     <string name="input_login_name">请输入登录名</string>
     <string name="input_login_psw">请输入登录密码</string>
     <string name="main_hint">首页</string>
+
+    <string name="change_data">改变数据</string>
 </resources>
