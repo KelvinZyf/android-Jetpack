@@ -44,5 +44,15 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         for (i in set1) {
             println("LRU${i.key}:${i.value}")
         }
+
+        val x = lruCache.get(2)
+        print("取出下标为2的数据：$x")
+
+        print("数据已满")
+        lruCache.put(7,7)
+        val set2 = lruCache.snapshot().entries
+        for (i in set2) {
+            println("LRU${i.key}:${i.value}")
+        }
     }
 }
